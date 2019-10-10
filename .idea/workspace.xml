@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61b2ca91-49b8-4550-9cbe-70efcfd88370" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/brokendnasearch.jl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildtree.jl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brokendnasearch.jl" beforeDir="false" afterPath="$PROJECT_DIR$/brokendnasearch.jl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +192,7 @@
       <workItem from="1570624963571" duration="8069000" />
       <workItem from="1570662461949" duration="184000" />
       <workItem from="1570709149824" duration="702000" />
-      <workItem from="1570710747246" duration="714000" />
+      <workItem from="1570710747246" duration="956000" />
     </task>
     <servers />
   </component>
