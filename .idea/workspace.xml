@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61b2ca91-49b8-4550-9cbe-70efcfd88370" name="Default Changelist" comment="" />
+    <list default="true" id="61b2ca91-49b8-4550-9cbe-70efcfd88370" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/brokendnasearch.jl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildtree.jl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +19,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QSftT8pGU53LYByCsWdCfsB5xG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -36,10 +45,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Julia.radixsort">
-    <configuration name="countingsortlength" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
+  <component name="RunManager" selected="Julia.test2">
+    <configuration name="brokendnasearch" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
       <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="targetFile" value="$PROJECT_DIR$/countingsortlength.jl" />
+      <setting name="targetFile" value="$PROJECT_DIR$/brokendnasearch.jl" />
       <setting name="additionalOptions" value="" />
       <setting name="programArgs" value="" />
       <setting name="juliaExecutive" value="/Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia" />
@@ -60,9 +69,9 @@
       <setting name="optimizationLevel" value="3" />
       <method v="2" />
     </configuration>
-    <configuration name="mergesort" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
+    <configuration name="dict" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
       <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="targetFile" value="$PROJECT_DIR$/mergesort.jl" />
+      <setting name="targetFile" value="$PROJECT_DIR$/dict.jl" />
       <setting name="additionalOptions" value="" />
       <setting name="programArgs" value="" />
       <setting name="juliaExecutive" value="/Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia" />
@@ -83,9 +92,9 @@
       <setting name="optimizationLevel" value="3" />
       <method v="2" />
     </configuration>
-    <configuration name="radixsort" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
+    <configuration name="dnasimilarity" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
       <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="targetFile" value="$PROJECT_DIR$/radixsort.jl" />
+      <setting name="targetFile" value="$PROJECT_DIR$/dnasimilarity.jl" />
       <setting name="additionalOptions" value="" />
       <setting name="programArgs" value="" />
       <setting name="juliaExecutive" value="/Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia" />
@@ -106,9 +115,32 @@
       <setting name="optimizationLevel" value="3" />
       <method v="2" />
     </configuration>
-    <configuration name="sorting" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
+    <configuration name="searchtree" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
       <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="targetFile" value="$PROJECT_DIR$/sorting.jl" />
+      <setting name="targetFile" value="$PROJECT_DIR$/searchtree.jl" />
+      <setting name="additionalOptions" value="" />
+      <setting name="programArgs" value="" />
+      <setting name="juliaExecutive" value="/Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia" />
+      <setting name="jitCompiler" value="yes" />
+      <setting name="deprecationWarning" value="yes" />
+      <setting name="codeCoverage" value="none" />
+      <setting name="trackAllocation" value="none" />
+      <setting name="systemImage" value="" />
+      <setting name="systemImageOption" value="false" />
+      <setting name="inlineOption" value="false" />
+      <setting name="checkBoundsOption" value="false" />
+      <setting name="colorOption" value="true" />
+      <setting name="mathModeOption" value="false" />
+      <setting name="handleSignalOption" value="false" />
+      <setting name="startupFileOption" value="true" />
+      <setting name="historyOption" value="false" />
+      <setting name="launchReplOption" value="false" />
+      <setting name="optimizationLevel" value="3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="JULIA_RUN_CONFIG_ID" factoryName="Julia" temporary="true">
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="targetFile" value="$PROJECT_DIR$/test2.jl" />
       <setting name="additionalOptions" value="" />
       <setting name="programArgs" value="" />
       <setting name="juliaExecutive" value="/Applications/Julia-1.2.app/Contents/Resources/julia/bin/julia" />
@@ -131,10 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Julia.radixsort" />
-        <item itemvalue="Julia.countingsortlength" />
-        <item itemvalue="Julia.sorting" />
-        <item itemvalue="Julia.mergesort" />
+        <item itemvalue="Julia.test2" />
+        <item itemvalue="Julia.brokendnasearch" />
+        <item itemvalue="Julia.dict" />
+        <item itemvalue="Julia.dnasimilarity" />
+        <item itemvalue="Julia.searchtree" />
       </list>
     </recent_temporary>
   </component>
@@ -154,10 +187,31 @@
       <workItem from="1569260166579" duration="3297000" />
       <workItem from="1570005243925" duration="8458000" />
       <workItem from="1570093098574" duration="2081000" />
+      <workItem from="1570133321920" duration="608000" />
+      <workItem from="1570193635166" duration="247000" />
+      <workItem from="1570194269149" duration="295000" />
+      <workItem from="1570198549387" duration="4160000" />
+      <workItem from="1570624963571" duration="8069000" />
+      <workItem from="1570662461949" duration="184000" />
+      <workItem from="1570709149824" duration="702000" />
+      <workItem from="1570710747246" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
